@@ -30,8 +30,6 @@ section {
     margin-right: 100px;
     padding: 5px;
     color: black;
-    z-index: 0;
-    top: 10;
     font-size: small;
 }
 .themetitle {
