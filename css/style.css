@@ -1,0 +1,40 @@
+.pattern {
+    height: 300px;
+    position: relative;
+    background-color: #53c19e;
+    background-image: linear-gradient(315deg,
+    #3033dc 0%, #656aea 74%)
+}
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: url(/img/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pattern:after {
+    background-color: white;
+}
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(8, 3, 96);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+section {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    color: black;
+    z-index: 0;
+    top: 10;
+    font-size: small;
+}
+.themetitle {
+    text-align: center;
+    color: white;
+}
